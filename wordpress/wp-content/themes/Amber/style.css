@@ -6,3 +6,143 @@ Author: Mike Dryburgh
 Author URI: http://www.mikedryburgh.com
 version: 1.0
 */
+
+/* Global styles */
+@import url('https://fonts.googleapis.com/css?family=Lato:400,400i|Oxygen:300,400,700|Dancing+Script:400,700');
+
+body {
+	margin: 0;
+ 	padding: 0;
+	font-family: 'Oxygen', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #FFFFFF;
+	background: #000000;
+}
+
+a:link,
+a:visited {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+/* Clearfix */
+.clearfix:before, .clearfix:after {
+	content: "";
+	display: block;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+.clearfix {
+	*zoom: 1;
+}
+
+/* Header Styles */
+.site-header {	
+	background: #474747;
+}
+
+.site-header h1 {
+	float: left;
+	width: 25%;
+	font-family: 'Dancing Script', cursive;
+	font-weight: 700;
+	font-size: 50px;
+	line-height: 30%;
+	text-align: center;
+}
+
+/* Utilities Toolabr styles */
+.utilities {
+	width: 100%;	
+	font-family: 'Oxygen', sans-serif;
+	font-size: 14px;
+	background: #000000;
+}
+
+/* Search box */
+.hd-search {
+	float: left;
+	width: 50%;
+}
+
+.site-login {
+	float: right;
+	width: 50%;	
+	text-align: right;
+}
+
+.site-login p {
+	float: right;
+	margin: 0 1% 0 1%;
+}
+
+/*Site navigation styles */
+.site-nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+.site-nav ul:before, .site-nav ul:after {
+	content: "";
+	display: block;
+}
+
+.site-nav ul:after {
+	clear: both;
+}
+
+.site-nav ul li {
+	list-style: none;
+	float: left;
+}
+
+/* Header navigation styles */
+.header-nav {
+	float: right;
+	width: 75%;
+	font-family: 'Oxygen', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+}
+
+.header-nav ul li {
+	width: 13%;	
+	text-align: center;
+	padding: 25px 0 0 0;
+}
+
+.header-nav ul li:nth-child(1) {
+	border-top: 10px solid #ffae00;
+}
+
+.header-nav ul li:nth-child(2) {
+	border-top: 10px solid #fc7100;
+}
+
+.header-nav ul li:nth-child(3) {
+	border-top: 10px solid #e51c5e;
+}
+
+.header-nav ul li:nth-child(4) {
+	border-top: 10px solid #ae0f8d;
+}
+
+.header-nav ul li:nth-child(5) {
+	border-top: 10px solid #6d0fae;
+}
+
+.header-nav ul li:nth-child(6) {
+	border-top: 10px solid #33227a;
+}
+
+.header-nav ul li:nth-child(7) {
+	border-top: 10px solid #0c8fcc;
+}
+
+.header-nav ul li a:hover {
+	text-decoration: underline;
+}

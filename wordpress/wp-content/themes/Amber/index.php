@@ -1,10 +1,7 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="utf-8">
-<title>Untitled Document</title>
-</head>
+<?php
+get_header();
+?>
 
-<body>
-</body>
-</html>
+<?php			 
+get_footer();
+?>

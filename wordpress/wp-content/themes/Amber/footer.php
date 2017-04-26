@@ -1,10 +1,11 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="utf-8">
-<title>Untitled Document</title>
-</head>
-
-<body>
+<nav class="site-nav">
+	<?php 
+		$args = array(
+			'theme_location' => 'footer'
+		);
+	?>
+	<?php wp_nav_menu( $args ); ?>				
+</nav>
+<?php wp_footer(); ?>
 </body>
 </html>
