@@ -14,9 +14,9 @@
 				<div class="hd-search">
 					<?php get_search_form(); ?>
 				</div>
-				<div class="site-login">
-					<p>Register</p>
-					<p>Login</p>					
+				<div class="site-login">					
+					<p><?php wp_login_form('login_form_top'); ?></p>
+					<p>Register</p>					
 				</div>
 			</div>
 			<h1><a href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a></h1>
@@ -30,4 +30,3 @@
 				<?php wp_nav_menu( $args ); ?>				
 			</nav>
 		</header>
-	</div>
